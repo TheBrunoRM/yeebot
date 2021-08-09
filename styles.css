@@ -12,9 +12,22 @@ h1 {
 
 #description {
     text-align: center;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 10vw;
+    margin-right: 10vw;
     font-size: 1.75em;
+}
+
+#discord {
+    transition-duration: 0.4s;
+}
+
+#discord:hover {
+    background:lightgreen;
+}
+
+#footer {
+    margin-left: 30vw;
+    margin-right: 30vw;
 }
 
 #button-container {
@@ -22,7 +35,7 @@ h1 {
     margin: 5rem;
 }
 
-#invite {
+#clickable {
     text-decoration: none;
     font-size: 5em;
     transition-duration: 0.4s;
@@ -30,7 +43,7 @@ h1 {
     background: lightsalmon;
 }
 
-#invite:hover {
+#clickable:hover {
     color: green;
     background:lightgreen;
 }
