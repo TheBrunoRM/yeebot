@@ -1,0 +1,35 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+    margin: 5rem;
+    text-align: center;
+    color: green;
+    text-shadow: 5px 5px greenyellow;
+}
+
+#description {
+    margin-left: 10em;
+    margin-right: 10em;
+    font-size: 1.75em;
+}
+
+#button-container {
+    text-align: center;
+    margin: 5rem;
+}
+
+#invite {
+    text-decoration: none;
+    font-size: 5em;
+    transition-duration: 0.4s;
+    color: red;
+    background: lightsalmon;
+}
+
+#invite:hover {
+    color: green;
+    background:lightgreen;
+}
