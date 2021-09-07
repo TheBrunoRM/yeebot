@@ -1,6 +1,11 @@
 body {
+    user-select: none;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#empty-space {
+    padding: 1vh 0 0 0;
 }
 
 #content {
@@ -8,13 +13,16 @@ body {
 }
 
 h1 {
-    user-select: none;
     font-size: 5rem;
     margin: 0;
-    padding: 20vh 0 5vh 0;
+    margin: 20vh 0 5vh 0;
     text-align: center;
     color: #C8E9A0;
     text-shadow: 5px 5px #5BBA6F;
+}
+
+h1:hover {
+    color: #baff66;
 }
 
 h2 {
@@ -32,6 +40,7 @@ h2 {
 }
 
 #discord {
+    cursor: pointer;
     transition-duration: 0.4s;
 }
 
@@ -51,18 +60,20 @@ h2 {
 
 .button-container {
     text-align: center;
-    padding: 5vh 0 5vh 0;
+    padding: 10vh 0;
 }
 
 .clickable {
     text-decoration: none;
     font-size: 5em;
     transition: color 0.4s, background 0.4s;
-    color: red;
-    background: lightsalmon;
+    color: white;
+    background: darkslateblue;
+    border-radius: 10px;
+    padding: 0px 20px;
 }
 
 .clickable:hover {
-    color: green;
-    background:lightgreen;
+    color: white;
+    background: darkturquoise;
 }
