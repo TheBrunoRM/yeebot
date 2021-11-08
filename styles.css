@@ -12,12 +12,23 @@ body {
     background: #2A9134;
 }
 
-h1 {
-    font-size: 5rem;
-    margin: 0;
+#yeebot-status-container {
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#title-container {
     margin: 20vh 0 5vh 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5rem;
     text-align: center;
     color: #C8E9A0;
+    width: fit-content;
+    margin: auto;
     text-shadow: 5px 5px #5BBA6F;
 }
 
@@ -54,6 +65,7 @@ h2 {
 }
 
 #footer-container {
+    display: inline-flex;
     margin-left: 30vw;
     margin-right: 30vw;
 }
@@ -76,4 +88,18 @@ h2 {
 .clickable:hover {
     color: white;
     background: darkturquoise;
+}
+
+#tos {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 2em;
+}
+
+#privacy {
+    position: absolute;
+    right: 10px;
+    top: 55px;
+    font-size: 2em;
 }

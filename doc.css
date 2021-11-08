@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(212, 212, 212);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 3rem 0;
+}
+
+div {
+    padding: 0 5rem;
+    background: #FFF;
+    height: 50vh;
+    margin: 0 30rem;
+}
+
+p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+span {
+    color: blueviolet;
+    font-style: italic;
+}
