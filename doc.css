@@ -11,18 +11,15 @@ h1 {
     padding: 3rem 0;
 }
 
-
 div {
     padding: 0 5vw;
     background: #FFF;
-    height: 50vh;
+    height: 100vh;
     margin: 0 5vw;
 }
 
 @media only screen and (min-width: 768px) {
     div {
-        padding: 0 5vw;
-        height: 50vh;
         margin: 0 25vw;
     }
 }
