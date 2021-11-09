@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: rgb(212, 212, 212);
+    background: rgb(187, 255, 173);
     margin: 0;
     padding: 0;
 }
@@ -11,11 +11,20 @@ h1 {
     padding: 3rem 0;
 }
 
+
 div {
-    padding: 0 5rem;
+    padding: 0 5vw;
     background: #FFF;
     height: 50vh;
-    margin: 0 30rem;
+    margin: 0 5vw;
+}
+
+@media only screen and (min-width: 768px) {
+    div {
+        padding: 0 5vw;
+        height: 50vh;
+        margin: 0 25vw;
+    }
 }
 
 p {
