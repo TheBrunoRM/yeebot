@@ -8,8 +8,25 @@ body {
     padding: 1vh 0 0 0;
 }
 
-#content {
-    background: #2A9134;
+#content-top {
+    background: #8fb98b;
+    padding: 0 0 100px 0;
+}
+
+.button-container {
+    text-align: center;
+    padding: 5vh 0;
+    position: absolute;
+    left: 0; 
+    right: 0;
+    transform: translate(0, -50%);
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#content-bottom {
+    background: #608e54;
+    height: 300px;
 }
 
 #yeebot-status-container {
@@ -19,28 +36,29 @@ body {
 }
 
 #title-container {
-    margin: 20vh 0 5vh 0;
+    margin: 20vh 0 0 0;
 }
 
 h1 {
     margin: 0;
-    font-size: 5rem;
+    font-size: 10rem;
     text-align: center;
-    color: #C8E9A0;
+    color: #ffffff;
     width: fit-content;
     margin: auto;
-    text-shadow: 5px 5px #5BBA6F;
+    text-shadow: 3px 3px #6e6e6e;
 }
 
 h1:hover {
-    color: #baff66;
+    color: #d9ffac;
 }
 
 h2 {
     margin: 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
-    color: #C8E9A0;
+    color: #ffffff;
+    opacity: 0.7;
 }
 
 #description {
@@ -56,32 +74,28 @@ h2 {
 }
 
 #discord:hover {
-    background:lightgreen;
+    background:rgb(75, 128, 75);
 }
 
 #footer {
-    padding: 2vw 2vw;
-    background: grey;
+    padding: 4.75vh 2vw;
+    background: #282828;
 }
 
 #footer-container {
     display: inline-flex;
     margin-left: 30vw;
     margin-right: 30vw;
-}
-
-.button-container {
-    text-align: center;
-    padding: 10vh 0;
+    color: white;
 }
 
 .clickable {
     text-decoration: none;
-    font-size: 5em;
+    font-size: 7em;
     transition: color 0.4s, background 0.4s;
     color: white;
-    background: darkslateblue;
-    border-radius: 10px;
+    background: #282828;
+    border-radius: 50px;
     padding: 0px 20px;
 }
 
@@ -92,14 +106,14 @@ h2 {
 
 #tos {
     position: absolute;
-    right: 10px;
+    left: 10px;
     top: 10px;
     font-size: 2em;
 }
 
 #privacy {
     position: absolute;
-    right: 10px;
+    left: 10px;
     top: 55px;
     font-size: 2em;
 }
