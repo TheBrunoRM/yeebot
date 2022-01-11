@@ -30,9 +30,12 @@ body {
 }
 
 #yeebot-status-container {
-    margin-left: 15px;
-    display: flex;
+    display: contents;
     justify-content: center;
+}
+
+#yeebot-status {
+    margin-left: 15px;
 }
 
 #title-container {

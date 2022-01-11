@@ -11,7 +11,7 @@ h1 {
     padding: 3rem 0;
 }
 
-div {
+#container {
     padding: 0 5vw;
     background: #FFF;
     height: 100vh;
@@ -19,7 +19,7 @@ div {
 }
 
 @media only screen and (min-width: 768px) {
-    div {
+    #container {
         margin: 0 25vw;
     }
 }
