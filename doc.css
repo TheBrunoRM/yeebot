@@ -14,11 +14,17 @@ h1 {
 #container {
     padding: 0 5vw;
     background: #FFF;
-    height: 100vh;
     margin: 0 5vw;
 }
 
 @media only screen and (min-width: 768px) {
+    #container {
+        margin: 0 10vw;
+        height: 100vh;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
     #container {
         margin: 0 25vw;
     }
